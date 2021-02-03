@@ -29,7 +29,7 @@
       },
       {
         "name": "instagram",
-        "url": "hhttps://www.instagram.com/ankit.kr09/",
+        "url": "https://www.instagram.com/ankit.kr09/",
         "className": "fa fa-instagram"
       },
       {
@@ -43,10 +43,10 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "Reva University - IN",
+        "school": "Reva University - Bengaluru",
         "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "Expected - August 2022",
-        "description": "Currently Enrolled"
+        "graduated": "Expected Graduation - August 2022",
+        "description": "Currently Pursuing"
       }
     ],
     "work": [
@@ -54,7 +54,7 @@
         "company": "",
         "title": "",
         "years": "",
-        "description": ""
+        "description": "Not Working"
       }
     ],
     "languages": [
@@ -82,19 +82,13 @@
         "title": "IEEE Judging Webapp",
         "category": "Web App",
         "image": "",
-        "url": ""
+        "url": "https://github.com/ankitksh81/ieee-judging"
       },
       {
         "title": "Cistem",
-        "category": "Decentralized App",
+        "category": "Blockchain",
         "image": "",
-        "url": ""
-      },
-      {
-        "title": "",
-        "category": "",
-        "image": "",
-        "url": ""
+        "url": "https://github.com/ankitksh81/cistem"
       }
     ]
   }
