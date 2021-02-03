@@ -1,50 +1,41 @@
-# PAPA React JS Resume Starter Pack and Digital Portfolio
+# React JS Resume
 
-![PAPA React JS Portfolio Starter Pack](resume-screenshot.jpg?raw=true "PAPA React JS Portfolio Stater Pack ")
+## Portfolio Description
 
-### <a href="https://resume-portfolio-starter-pack.herokuapp.com">LIVE DEMO</a>
+This portfolio is made using React. The data on the portfolio is directly linked to a JSON file. Any changes to the portfolio can be made in the JSON file. The changes will then be reflected on to the portfolio. This allows you to customize your own personal portfolio that can be used for applying to jobs or other personal uses. If you need to use this portfolio for your own personal website then follow the steps below:
 
-## Resume Starter Pack Description
+## Make it Your Own!
 
-This portfolio starter pack is made using React. The data on the portfolio is directly linked to a JSON file. Any changes to the portfolio can be made in the JSON file. The changes will then be reflected on to the portfolio. This allows you to customize your own personal portfolio that can be used for applying to jobs or other personal uses. If you need to use this portfolio for your own personal website then follow the steps below:
+### 1. Make sure you have what you need
 
-## 1. Initial Setup Procedures
+To build this website, you will need to have Node >=6 downloaded and installed on your machine. If you don't already have it, you can get it <a href="https://nodejs.org/en/download/">HERE</a>
 
-Firstly, you will need to download the latest version of Node by <a href="https://nodejs.org/en/download/">CLICKING HERE</a>
+### 2. Build a Create-React-App
 
-## 2. Building a Create-React-App
+Next, you will build the initial application using a handy tool called Create-React-App. This allows you to get up and running with a React app without the headache of setting up build-tool configurations. Go <a href="https://reactjs.org/docs/installation.html">HERE</a> to get started.
+When the app building is finished run `cd yourappname` and run `npm start` to test it out.
+Hit ctrl+c in the terminal when you want to stop the server that the above command starts.
 
-Next, you will build the application using Create-React-App. Go <a href="https://reactjs.org/docs/installation.html">HERE</a> to get started. (A video demonstration of this step can be found in our Zero to Full Stack Hero module)
-Once the build procedure is finished run the command `cd yourappname` and then `npm start` to confirm the app works
+### 3. Download the template
 
-## 3. Download the template
+Once you have a React app up and running by following the steps in the above link, download my code by hitting the green "clone or download" button above and hit download zip. All you will have to do now is replace the "public" and "src" folders of your newly built app with mine that you just downloaded. If you run `npm start` now, you should see that your app renders the same as the one at the live demo link above.
 
-Once the steps above have been followed successfully, download the code above using the green button.
-IMPORTANT: You will have to replace the "public" and "src" folders of your newly built app with the downloaded code. Run the command `npm start` after and you should see a similar render like the LIVE DEMO link above. If it is not the same then go back to Step 1 and try again.
+### 4. Replace images and fonts
 
-## 4. Fill in your personal info
+Next, you will want to replace the images, and fonts if you like, with your own. All you have to do is replace the images at public/images/header-background.jpg, public/images/testimonials-bg.jpg and public/favicon.ico with your own. <em>YOU MUST KEEP THE SAME NAMES ON THE IMAGES.</em>
+
+### 5. Fill in your personal info
 
 To populate the website with all of your own data, open the public/resumeData.json file and simply replace the data in there with your own. Images for the porfolio section are to be put in the public/images/portfolio folder.
 
-## 5. (OPTIONAL) Replacing images and/or fonts
+### 6. Make any styling changes you would like
 
-If you want to display your own pictures then you have to replace the files at these locations: public/images/header-background.jpg, public/images/testimonials-bg.jpg and public/favicon.ico. FILE NAMES MUST NOT BE CHANGED UNDER ANY CIRCUMSTANCES.
+Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling changes, feel free!
 
-## 7. Finalising Resume
+### 7. Enjoy your new Resume Website
 
-Once all the formatting and data input is finalised, run the command `npm start` and you'll see your resume on local host.
-Run the command `npm run init` to set up a new or existing npm package. Then run `npm install` and then finally run `npm run build`. This will create a dedicated build folder.
+When you're all done, run `npm start` again and you'll see your new personal resume website! Congratulations!
 
-## 8. Host Resume Online
-
-1) Upload all the Resume related files to your Github Profile
-2) Go to <a href="https://www.heroku.com">Heroku</a> and set up your profile
-3) Create a New App
-4) Choose Github as a Deployment Method
-5) Select the correct resume repository that you uploaded in Step 1
-
-## Credits
-
-##### Original Idea
+#### Original Idea
 
 <a href="https://github.com/tbakerx/react-resume-template/blob/master/README.md">Inspiration from Tim Baker (tbakerx)</a>
